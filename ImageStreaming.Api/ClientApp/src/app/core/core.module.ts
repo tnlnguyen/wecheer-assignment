@@ -1,7 +1,7 @@
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BaseUrlInterceptor } from './base/base-url.inteceptor';
-import { environment } from 'src/environments/environment.development';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   providers: [
