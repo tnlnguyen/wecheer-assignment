@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Tests", "ImageStreaming.Tests\ImageStreaming.Tests.csproj", "{167EC861-7F1A-448F-99D7-6C8A0495FC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Infrastructure", "ImageStreaming.Infrastructure\ImageStreaming.Infrastructure.csproj", "{3114113F-5ECE-44E4-BEF7-68AB008C1DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Application", "ImageStreaming.Application\ImageStreaming.Application.csproj", "{FAAC398D-E81E-40DE-B758-84494EC982D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Domain", "ImageStreaming.Domain\ImageStreaming.Domain.csproj", "{4D122E71-929E-4E74-A423-A37003FD6855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Shared", "ImageStreaming.Shared\ImageStreaming.Shared.csproj", "{D9AC97DB-C03A-46A0-97AC-EA3C7EFD9F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageStreaming.Api", "ImageStreaming.Api\ImageStreaming.Api.csproj", "{6CC83008-836A-496A-A429-D69B48FB7DE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167EC861-7F1A-448F-99D7-6C8A0495FC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167EC861-7F1A-448F-99D7-6C8A0495FC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167EC861-7F1A-448F-99D7-6C8A0495FC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167EC861-7F1A-448F-99D7-6C8A0495FC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3114113F-5ECE-44E4-BEF7-68AB008C1DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3114113F-5ECE-44E4-BEF7-68AB008C1DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3114113F-5ECE-44E4-BEF7-68AB008C1DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3114113F-5ECE-44E4-BEF7-68AB008C1DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAC398D-E81E-40DE-B758-84494EC982D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAC398D-E81E-40DE-B758-84494EC982D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAC398D-E81E-40DE-B758-84494EC982D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAC398D-E81E-40DE-B758-84494EC982D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D122E71-929E-4E74-A423-A37003FD6855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D122E71-929E-4E74-A423-A37003FD6855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D122E71-929E-4E74-A423-A37003FD6855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D122E71-929E-4E74-A423-A37003FD6855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AC97DB-C03A-46A0-97AC-EA3C7EFD9F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AC97DB-C03A-46A0-97AC-EA3C7EFD9F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AC97DB-C03A-46A0-97AC-EA3C7EFD9F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AC97DB-C03A-46A0-97AC-EA3C7EFD9F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC83008-836A-496A-A429-D69B48FB7DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC83008-836A-496A-A429-D69B48FB7DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC83008-836A-496A-A429-D69B48FB7DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC83008-836A-496A-A429-D69B48FB7DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ED1B464-4EE4-461E-AD82-693EA5263FF6}
+	EndGlobalSection
+EndGlobal

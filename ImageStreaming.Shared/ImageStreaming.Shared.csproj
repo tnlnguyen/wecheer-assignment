@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Events\" />
+    <None Remove="Authorization\" />
+    <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+    <None Remove="Persistence\" />
+    <None Remove="Persistence\Repositories\" />
+    <None Remove="Persistence\Common\" />
+    <None Remove="Persistence\Common\Interfaces\" />
+    <None Remove="Persistence\Entities\" />
+    <None Remove="Persistence\Services\" />
+    <None Remove="Persistence\Common\Interfaces\Repositories\" />
+    <None Remove="Persistence\Common\Interfaces\Services\" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Persistence\Common\Exceptions\" />
+    <None Remove="Persistence\Common\Extensions\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Persistence\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Authorization\" />
+    <Folder Include="Persistence\" />
+    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="Persistence\Common\" />
+    <Folder Include="Persistence\Common\Interfaces\" />
+    <Folder Include="Persistence\Entities\" />
+    <Folder Include="Persistence\Services\" />
+    <Folder Include="Persistence\Common\Interfaces\Repositories\" />
+    <Folder Include="Persistence\Common\Interfaces\Services\" />
+    <Folder Include="Persistence\Common\Exceptions\" />
+    <Folder Include="Persistence\Common\Extensions\" />
+    <Folder Include="Persistence\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.8" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>
